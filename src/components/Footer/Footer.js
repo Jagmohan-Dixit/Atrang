@@ -52,7 +52,7 @@ const Footer = ({ about, org }) => {
             <div className="div3-icon-container">
               <a
                 className="div3-icon-container-a"
-                href="mailto:someone@example.com"
+                href="mailto:atrang22.iiitt@gmail.com"
               >
                 <EmailIcon fontSize="large" />
               </a>
