@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useRef } from "react";
+import HomePage from "./Pages/Home/HomePage";
+import { Route, Routes } from "react-router-dom";
+import Events from "./Pages/Events/Events";
+import Schedule from "./Pages/Schedule/Schedule";
+import Prizes from "./Pages/Prizes/Prizes";
 
 function App() {
+  const aboutSection = useRef(null);
+  const organizerSection = useRef(null);
+
+  const gotoAbout = () =>
+    window.scrollTo({ top: aboutSection.current.offsetTop });
+  const gotoOrganizer = () =>
+    window.scrollTo({ top: organizerSection.current.offsetTop });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <HomePage
+            aboutSection={aboutSection}
+            organizerSection={organizerSection}
+            gotoAbout={gotoAbout}
+            gotoOrganizer={gotoOrganizer}
+          />
+        }
+      />
+      <Route
+        path="/events"
+        element={<Events gotoAbout={gotoAbout} gotoOrganizer={gotoOrganizer} />}
+      />
+      <Route
+        path="/schedule"
+        element={
+          <Schedule gotoAbout={gotoAbout} gotoOrganizer={gotoOrganizer} />
+        }
+      />
+      <Route
+        path="/prizes"
+        element={<Prizes gotoAbout={gotoAbout} gotoOrganizer={gotoOrganizer} />}
+      />
+    </Routes>
   );
 }
 

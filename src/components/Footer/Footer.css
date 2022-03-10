@@ -1,0 +1,184 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 5px 15px 5px;
+  background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
+}
+
+.footer-sub--container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-sub--div1,
+.footer-sub--div2,
+.footer-sub--div3 {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.footer-sub--div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0px;
+}
+.footer-sub--div2 p,
+.footer-sub--div3 p {
+  font-weight: bold !important;
+  font-size: 1.8rem;
+  margin-top: 0 !important;
+  text-transform: uppercase;
+  color: #00ffdd;
+}
+
+.footer-sub--div2 ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.footer-sub--div2 ul li {
+  margin: 5px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-sub--div2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-sub--div2 ul li a:hover {
+  color: #00ffdd;
+  cursor: pointer;
+}
+
+.footer-container p {
+  font-weight: 300;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78%;
+}
+
+.div3-icon-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  margin: 10px;
+  transition: all 0.5s ease;
+}
+
+.div3-icon-container a > * {
+  fill: white;
+}
+
+.div3-icon-container:hover {
+  border-color: #00ffdd;
+  transform: rotate(720deg);
+}
+
+.footer-sub--div1 p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.organizer-highlight {
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: #00ffdd;
+  cursor: pointer;
+}
+
+.credits {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.credits:hover {
+  color: #00ffdd;
+}
+
+.footer-hr {
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  margin: 20px 0 10px 0;
+  border-top: 2px solid #00ffdd;
+}
+
+.heart-footer {
+  width: 20px;
+}
+
+.footer-logo--text {
+  width: 125px;
+}
+
+@media (max-width: 800px) {
+  .footer-sub--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-sub--div1,
+  .footer-sub--div2,
+  .footer-sub--div3 {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .footer-sub--div1 p {
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer-container h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .footer-container p {
+    line-height: 1.4;
+  }
+  .footer-container {
+    padding: 35px 10px 15px 10px;
+  }
+
+  .footer-sub--div1,
+  .footer-sub--div2,
+  .footer-sub--div3 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footer-sub--div1 p {
+    width: 80%;
+  }
+
+  .footer-hr {
+    margin: 5px 0 10px 0;
+  }
+}

@@ -1,0 +1,17 @@
+.event-card--conatiner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.event-page--container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-atrang-main {
+  font-size: 4rem;
+  margin: 10px 0 100px 0;
+}

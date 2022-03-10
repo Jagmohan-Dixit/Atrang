@@ -1,0 +1,15 @@
+.main--conainer {
+  width: 100% !important;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  align-items: center;
+}
+
+.utility-div {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
