@@ -1,6 +1,5 @@
 .main--conainer {
   width: 100% !important;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   /* justify-content: ; */
@@ -8,8 +7,21 @@
 }
 
 .utility-div {
-  height: 80vh;
+  height: 58.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.coming-soon-heading {
+  margin-top: 50px !important;
+}
+
+@media (max-width: 450px) {
+  .utility-div {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
