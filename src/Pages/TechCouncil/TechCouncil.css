@@ -1,0 +1,10 @@
+.council-card--container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .council-card--container {
+    flex-direction: column;
+  }
+}

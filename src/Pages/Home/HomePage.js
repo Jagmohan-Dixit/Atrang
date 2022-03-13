@@ -6,6 +6,7 @@ import Video2 from "../../Assests/videoB.mp4";
 import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
 import Video from "../../Assests/atrang-coming-soon.mp4";
+import TechCouncil from "../TechCouncil/TechCouncil";
 
 const HomePage = ({
   aboutSection,
@@ -55,14 +56,10 @@ const HomePage = ({
             <source src={Video} type="video/mp4" />
             Your browser is not supported the video format
           </video>
-          {/* <h1 className="coming-soon-heading">
-            WE'RE <br />
-            COMING <br />
-            SOON!
-            <br />
-          </h1> */}
         </div>
       </div>
+      <hr className="hr organizer-hr" />
+      <TechCouncil />
       <hr className="hr organizer-hr" />
       <div ref={organizerSection} className="home-section-two">
         <div className="border-container organizer-border">

@@ -55,12 +55,12 @@
 
 .line-bottom {
   margin-top: 35px;
-  transform: translateY(280px);
+  transform: translateY(480px);
   animation: bottom-line 0.6s ease forwards 3.9s;
 }
 
 .crown-img {
-  transform: translateY(-300px);
+  transform: translateY(-450px);
   animation: crown 0.6s ease forwards 3.6s;
 }
 @keyframes bottom-line {

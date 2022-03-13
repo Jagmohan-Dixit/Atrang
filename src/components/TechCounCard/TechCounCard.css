@@ -1,0 +1,176 @@
+.box {
+  margin: 40px 50px 0 50px;
+}
+
+.team-card {
+  width: 250px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.blur {
+  filter: blur(2px);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  height: 100%;
+  width: 100%;
+}
+
+.team-card-svg-animal {
+  position: absolute;
+  top: -83px;
+}
+
+.card-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-main {
+  object-fit: cover;
+}
+.mayank {
+  background-image: url("../../Assests/mayank-sonkar-new.png");
+}
+
+.lavanya {
+  background-image: url("../../Assests/lavanya3.png");
+}
+
+.team-card-hr {
+  border: 1px solid #ffffff;
+  margin: 15px auto 0 auto;
+  opacity: 0;
+  width: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-card-body {
+  background-color: #000;
+  background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
+  position: absolute;
+  top: 300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px 0 0 0;
+  color: #ffffff;
+  transition: all 1s ease-in-out;
+  text-align: center;
+}
+
+.team-card-body .name {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 18px;
+  font-weight: 600;
+  transition: all 1s ease-in-out;
+}
+
+.team-card-body .title {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 1s ease-in-out;
+}
+
+.team-card-body .text {
+  color: #ffffff;
+  padding: 0 2em;
+  text-align: justify;
+  margin-top: 1em;
+  margin-bottom: 20%;
+  line-height: 16px;
+  font-size: 10px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.link-container .link-button {
+  padding: 5px 10px 5px 10px;
+  width: 50px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  background-color: #000;
+  color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card-body .link-button:hover {
+  padding: 5px 30px 5px 30px;
+  color: #ffffff;
+  background-color: #00ffdd;
+  font-size: 20px;
+  border-radius: 0;
+}
+
+.team-card:hover {
+  top: -15px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.team-card:hover .blur {
+  opacity: 1;
+}
+
+.team-card:hover .team-card-body {
+  top: 0;
+  transition-delay: 0.5s;
+}
+
+.team-card:hover .team-card-body .name {
+  transform: translateY(20px);
+  transition-delay: 1s;
+  font-size: 20px;
+  line-height: 24px;
+  color: #00ffdd;
+}
+
+.team-card:hover .team-card-body .title {
+  transform: translateY(-20px);
+  transition-delay: 1s;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.team-card:hover .team-card-body .team-card-hr {
+  opacity: 1;
+  width: 90%;
+  transition-delay: 1.5s;
+}
+
+@media (max-width: 800px) {
+  .box {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+}
