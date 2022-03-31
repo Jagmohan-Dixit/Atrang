@@ -7,3 +7,8 @@
 .card-container--org {
   margin-top: 90px;
 }
+
+.org-main-heading{
+  font-size: 3.5rem;
+  margin-bottom: 100px;
+}

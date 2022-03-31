@@ -11,12 +11,7 @@ const Footer = ({ about, org }) => {
           <img className="footer-logo--text" src={LogoText} alt="logo" />
           <p>
             Join us as an{" "}
-            <a
-              href="https://forms.gle/KQb5MywwzyMNpPNX9"
-              target="_blank"
-              rel="noreferrer"
-              className="organizer-highlight"
-            >
+            <a href="/organizer" className="organizer-highlight">
               organizer
             </a>{" "}
             and let's make the community more powerful than it ever be.
@@ -36,13 +31,7 @@ const Footer = ({ about, org }) => {
             </li>
 
             <li>
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScwmiWy3BCkHuDhgTYbyqUUjo5mm9VJZifAY_YKYSmTvDqA8g/formrestricted"
-                target="_blank"
-                rel="noreferrer"
-              >
-                organizers
-              </a>
+              <a href="/organizer">organizers</a>
             </li>
           </ul>
         </div>

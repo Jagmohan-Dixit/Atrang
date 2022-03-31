@@ -33,7 +33,7 @@ const Org = () => {
     <div className="event-page--container">
       <Navbar />
       <div className="anim-main-container">
-        <h1 className="glitch heading-atrang-main">
+        <h1 className="glitch org-main-heading">
           <span aria-hidden="true"> Organizers</span>
           Organizers
           <span aria-hidden="true"> Organizers</span>
