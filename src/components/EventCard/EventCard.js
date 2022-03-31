@@ -1,7 +1,9 @@
 import React from "react";
 import "./EventCard.css";
+import firstImg from "../../Assests/first.png";
+import Second from "../../Assests/second.png";
 
-const EventCard = ({ title, descrip, img }) => {
+const EventCard = ({ title, descrip, img, link, first, second }) => {
   return (
     <section class="record">
       <div class="record-arrow"></div>
@@ -13,14 +15,24 @@ const EventCard = ({ title, descrip, img }) => {
       <div class="record-desc">
         <h1>{title}</h1>
         <p>{descrip}</p>
+        <div className="prize-container">
+          <div className="prize-ele">
+            <img src={firstImg} alt="first" />
+            <p>{first}</p>
+          </div>
+          <div className="prize-ele">
+            <img src={Second} alt="second" />
+            <p>{second}</p>
+          </div>
+        </div>
         <button className="organizer-button">
           <a
-            href="https://forms.gle/KQb5MywwzyMNpPNX9"
+            href={link}
             target="_blank"
             className="organizer-button-a"
             rel="noreferrer"
           >
-            BECOME AN ORGANIZER
+            PARTICIPATE NOW
           </a>
         </button>
       </div>

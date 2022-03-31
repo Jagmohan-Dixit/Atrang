@@ -1,0 +1,9 @@
+.card-container--organizer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container--org {
+  margin-top: 90px;
+}

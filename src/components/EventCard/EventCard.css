@@ -1,7 +1,7 @@
 .record {
   position: relative;
   width: 330px;
-  height: 230px;
+  height: 260px;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
@@ -95,4 +95,25 @@
   border: 2px solid black;
   color: black;
   text-decoration: none;
+}
+
+.prize-container {
+  display: flex;
+  margin: 5px 0;
+}
+
+.prize-ele {
+  display: flex;
+  width: 40%;
+}
+
+.prize-ele img {
+  width: 25px;
+}
+
+.prize-ele p {
+  font-size: 1rem;
+  margin-left: 6px;
+  color: black;
+  font-weight: bold;
 }

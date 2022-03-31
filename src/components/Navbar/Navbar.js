@@ -32,16 +32,8 @@ const Navbar = ({ about, org }) => {
           <li>
             <a href="/schedule">Schedule</a>
           </li>
-          {window.location.pathname === "/events" ||
-          window.location.pathname === "/schedule" ||
-          window.location.pathname === "/prizes" ? null : (
-            <li onClick={() => setActive(!active)}>
-              <a onClick={org}>Organizers</a>
-            </li>
-          )}
-
-          <li>
-            <a href="/prizes">Prizes</a>
+          <li onClick={() => setActive(!active)}>
+            <a href="/organizer">Organizers</a>
           </li>
         </ul>
       </div>

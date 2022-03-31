@@ -24,6 +24,9 @@ const Events = ({ gotoAbout, gotoOrganizer }) => {
               title={card.title}
               descrip={card.descrip}
               img={card.image}
+              link={card.link}
+              first={card.first}
+              second={card.second}
             />
           );
         })}
