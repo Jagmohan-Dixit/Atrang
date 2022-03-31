@@ -94,7 +94,7 @@ const Org = () => {
       </div>
       <OrgHeading title="css battle" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={dinesh} name={"Dinesh vikran"} des="4th year" />
+        <OrgCard image={dinesh} name={"Dinesh vikram"} des="4th year" />
         <OrgCard
           image="http://iiittm.surge.sh/static/media/nitish_kumar.df87522d.jpeg"
           name={"Nitish kumar"}

@@ -60,7 +60,7 @@ const HomePage = ({
       </div>
       <hr className="hr organizer-hr" />
       <TechCouncil />
-      <hr className="hr organizer-hr" />
+      {/* <hr className="hr organizer-hr" />
       <div ref={organizerSection} className="home-section-two">
         <div className="border-container organizer-border">
           <h1 className="section-heading heading-organizer">
@@ -84,7 +84,7 @@ const HomePage = ({
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <hr className="hr" />
       <Footer about={gotoAbout} org={gotoOrganizer} />
     </>
