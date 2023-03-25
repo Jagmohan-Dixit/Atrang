@@ -7,6 +7,7 @@ import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
 import Video from "../../Assests/atrang-coming-soon.mp4";
 import TechCouncil from "../TechCouncil/TechCouncil";
+import WebTeam from "../AtrangWebTeam/WebTeam";
 
 const HomePage = ({
   aboutSection,
@@ -60,6 +61,7 @@ const HomePage = ({
       </div>
       <hr className="hr organizer-hr" />
       <TechCouncil />
+      <WebTeam />
       {/* <hr className="hr organizer-hr" />
       <div ref={organizerSection} className="home-section-two">
         <div className="border-container organizer-border">

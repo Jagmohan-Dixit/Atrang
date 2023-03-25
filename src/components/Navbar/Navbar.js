@@ -30,6 +30,9 @@ const Navbar = ({ about, org }) => {
             <a href="/events">Events</a>
           </li>
           <li>
+            <a href="/workshops">Workshops</a>
+          </li>
+          <li>
             <a href="/schedule">Schedule</a>
           </li>
           <li onClick={() => setActive(!active)}>

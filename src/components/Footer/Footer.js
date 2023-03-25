@@ -27,6 +27,9 @@ const Footer = ({ about, org }) => {
               <a href="/events">events</a>
             </li>
             <li>
+              <a href="/workshops">workshops</a>
+            </li>
+            <li>
               <a href="/schedule">schedule</a>
             </li>
 
@@ -61,7 +64,7 @@ const Footer = ({ about, org }) => {
       <hr className="footer-hr" />
       <a
         className="credits"
-        href="https://heymayank.herokuapp.com/"
+        href="#"
         target="_blank"
         rel="noreferrer"
       >
@@ -71,7 +74,7 @@ const Footer = ({ about, org }) => {
           src="https://media.giphy.com/media/LpDmM2wSt6Hm5fKJVa/giphy.gif"
           alt="heart"
         />{" "}
-        by Mayank
+        by Atrang Web Team
       </a>
     </div>
   );

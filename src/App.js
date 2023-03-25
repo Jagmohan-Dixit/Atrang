@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Events from "./Pages/Events/Events";
 import Schedule from "./Pages/Schedule/Schedule";
 import Org from "./Pages/Organizer/Org";
+import Workshops from "./Pages/Workshops/Workshops";
 
 function App() {
   const aboutSection = useRef(null);
@@ -35,6 +36,12 @@ function App() {
         path="/schedule"
         element={
           <Schedule gotoAbout={gotoAbout} gotoOrganizer={gotoOrganizer} />
+        }
+      />
+      <Route
+        path="/workshops"
+        element={
+          <Workshops gotoAbout={gotoAbout} gotoOrganizer={gotoOrganizer} />
         }
       />
       <Route path="/organizer" element={<Org />} />
