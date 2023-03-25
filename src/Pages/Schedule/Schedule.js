@@ -175,12 +175,14 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
           </div>
         </div>
 
-
-        <div className="dayheading">
-          <h1 style={{backgroundColor: "#1e1f22",padding: "20px", paddingInline:"8vw", borderRadius: "10px"}}>Hackathon (Online Event)</h1>
-        </div> 
-
-
+        <div class="hackathon">
+          <div style={{display:"flex",justifyContent: "center", marginBottom: "2vw"}}>
+            <h1 style={{backgroundColor: "#1e1f22",padding: "20px", paddingInline:"8vw", borderRadius: "10px"}}>Hackathon (Online)</h1>
+          </div> 
+          <div style={{display:"flex",justifyContent: "center"}}>
+            <h3 class="hackdate">19th April, 23, 11:00 AM - 21st April, 23, 11:00 PM</h3>
+          </div>
+        </div>
       </div>
 
       <Footer />

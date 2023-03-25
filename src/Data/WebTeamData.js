@@ -15,14 +15,25 @@ export const WebTeamData = [
       tag: "mayank",
     },
     {
-        key: "2",
-        img: Jaggu,
-        name: "Jagmohan Dixit",
-        about:
-          "I was first drawn to coding to learn about this field, but I quickly became obsessed with the procedure. I have developed a variety of expertise and sharpened my talents through designing and creating web apps. Regardless of its size, I approach every project with passion and dedication.I have a constant desire to overcome obstacles and push the limits of what is feasible.I'm always looking for ways to advance and innovate in my field.",
-        email: "201212@iiitt.ac.in",
-        linkedIn: "https://www.linkedin.com/in/jagmohandixit",
-        portfolio: "https://hellojaggu.surge.sh",
-        tag: "jaggu",
-      },
+      key: "2",
+      img: Jaggu,
+      name: "Jagmohan Dixit",
+      about:
+        "I was first drawn to coding to learn about this field, but I quickly became obsessed with the procedure. I have developed a variety of projects and sharpened my talents through designing and creating web apps. Regardless of its size, I approach every project with passion and dedication.I have a constant desire to overcome obstacles and push the limits of what is feasible.I'm always looking for ways to advance and innovate in my field.",
+      email: "201212@iiitt.ac.in",
+      linkedIn: "https://www.linkedin.com/in/jagmohandixit",
+      portfolio: "https://hellojaggu.surge.sh",
+      tag: "jaggu",
+    },
+    {
+      key: "3",
+      img: Jaggu,
+      name: "Kshitij",
+      about:
+        "I was first drawn to coding to learn about this field, but I quickly became obsessed with the procedure. I have developed a variety of projects and sharpened my talents through designing and creating web apps. Regardless of its size, I approach every project with passion and dedication.I have a constant desire to overcome obstacles and push the limits of what is feasible.I'm always looking for ways to advance and innovate in my field.",
+      email: "201212@iiitt.ac.in",
+      linkedIn: "https://www.linkedin.com/in/jagmohandixit",
+      portfolio: "https://hellojaggu.surge.sh",
+      tag: "jaggu",
+    },
   ];
