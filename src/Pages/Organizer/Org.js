@@ -75,6 +75,12 @@ const Org = () => {
           des="1st year"
         />
       </div>
+      <OrgHeading title="coding contest" />
+      <div className="card-container--organizer card-container--org">
+        <OrgCard image={Shubham} name={"Dipesh Talekar"} des="4th year" />
+        <OrgCard image={Sarthak} name={"Jagmohan Dixit"} des="3rd year" />
+        <OrgCard image={Nishant} name={"Krishna Rai"} des="2nd year" />
+      </div>
       <OrgHeading title="hackathon" />
       <div className="card-container--organizer card-container--org">
         <OrgCard image={Venu} name={"Venu Sai"} des="3rd year" />
@@ -85,12 +91,6 @@ const Org = () => {
         <OrgCard image={sid} name={"Siddharth Sahu"} des="3rd year" />
         <OrgCard image={Vikash} name={"Vikash Baabhu"} des="2nd year" />
         <OrgCard image={Yash} name={"Yash Khaitan"} des="1st year" />
-      </div>
-      <OrgHeading title="coding contest" />
-      <div className="card-container--organizer card-container--org">
-        <OrgCard image={Shubham} name={"Shubham Bhagat"} des="3rd year" />
-        <OrgCard image={Sarthak} name={"Sarthak Kumar"} des="2nd year" />
-        <OrgCard image={Nishant} name={"Nishant Raj"} des="1st year" />
       </div>
       <OrgHeading title="css battle" />
       <div className="card-container--organizer card-container--org">

@@ -6,7 +6,7 @@
 }
 
 .utility-div {
-  height: 58.5vh;
+  /* height: 58.5vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,13 +19,11 @@
 .dayheading {
   display:flex;
   justify-content: center;
-  margin-bottom: 8vw;
-  margin-top: -7vh;
+  margin-bottom: 5vh;
 }
 
 .hackathon {
   margin-bottom: 5vw;
-  margin-top: -3vw;
   padding-inline: 3vw;
 }
 
@@ -49,12 +47,12 @@
 }
 
 .container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 0 100px 0;
+  padding: 0 0 50px 0;
   /* background-color: #111; */
 }
 .timeline {
@@ -104,7 +102,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 90%;
+    height: 100%;
     background-color: gray;
   }
   .timeline ul li {
@@ -152,7 +150,10 @@
     display:flex;
     justify-content: center;
     margin-bottom: 8vw;
-    margin-top: -7vh;
+    margin-top: 5vh;
+  }
+  .hackathon {
+    /* margin-top: -3vh; */
   }
 }
 
@@ -161,13 +162,13 @@
     width: 500px;
   }
   .hackathon {
-    margin-top: -7vh;
+    /* margin-top: -4vh; */
   }
 }
 
 @media (max-width: 450px) {
   .container {
-    width: 380px;
+    width: 100%;
   }
   .timeline-content h1 {
     font-size: 24px;
@@ -177,8 +178,9 @@
     /* text-align: center; */
   }
   .hackathon {
-    margin-top: -8vh;
+    /* margin-top: -5vh; */
   }
+
   .timeline-content {
     padding: 0;
   }
