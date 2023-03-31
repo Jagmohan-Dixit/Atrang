@@ -64,8 +64,7 @@ const Footer = ({ about, org }) => {
       <hr className="footer-hr" />
       <a
         className="credits"
-        href="#"
-        target="_blank"
+        href="#webteam"
         rel="noreferrer"
       >
         Made with{" "}

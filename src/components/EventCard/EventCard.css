@@ -1,7 +1,8 @@
 .record {
   position: relative;
-  width: 330px;
-  height: 260px;
+  width: 330px; 
+  height: 350px;
+  /* height: 260px;  */
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
@@ -11,7 +12,7 @@
 .record-arrow {
   position: absolute;
   padding: 3%;
-  transform: translateX(75%);
+  transform: translateX(85%);
   opacity: 0;
   transition: all 300ms ease-in-out;
 }
@@ -22,7 +23,7 @@
 }
 
 .record:hover .record-arrow {
-  transform: translateX(85%);
+  transform: translateX(65%);
   opacity: 1;
 }
 
@@ -34,7 +35,7 @@
   background-position: center center;
 }
 .record:hover .record-display {
-  height: 20%;
+  height: 35%;
 }
 
 .record-desc {
@@ -78,11 +79,12 @@
 }
 
 .organizer-button {
+  width: 100%;
   font-weight: bold;
   letter-spacing: 2px;
   border: none;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .organizer-button-a:hover {

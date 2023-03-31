@@ -1,7 +1,5 @@
 import React from "react";
 import "./EventCard.css";
-import firstImg from "../../Assests/first.png";
-import Second from "../../Assests/second.png";
 
 const EventCard = ({ title, descrip, img, link, first, second }) => {
   return (
@@ -15,7 +13,7 @@ const EventCard = ({ title, descrip, img, link, first, second }) => {
       <div class="record-desc">
         <h1>{title}</h1>
         <p>{descrip}</p>
-        <div className="prize-container">
+        {/* <div className="prize-container">
           <div className="prize-ele">
             <img src={firstImg} alt="first" />
             <p>{first}</p>
@@ -24,7 +22,7 @@ const EventCard = ({ title, descrip, img, link, first, second }) => {
             <img src={Second} alt="second" />
             <p>{second}</p>
           </div>
-        </div>
+        </div> */}
         <button className="organizer-button">
           <a
             href={link}

@@ -197,6 +197,10 @@
     width: 230px;
   }
 
+  .section-heading {
+    font-size: 3rem;
+  }
+
   .coming-soon--border {
     padding: 50px;
     width: 90%;
@@ -221,7 +225,7 @@
   }
 
   .home-section-two {
-    padding: 0px 30px;
+    padding: 20px 30px;
   }
 
   .coming-soon--border {
@@ -231,6 +235,9 @@
 
   .cs-video--content {
     width: 300px;
+  }
+  .section-heading {
+    font-size: 3rem;
   }
 }
 
@@ -252,11 +259,11 @@
   }
 
   .home-section-two {
-    padding: 0px 30px;
+    padding: 30px 30px;
   }
 
   .section-heading {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   .section-para {

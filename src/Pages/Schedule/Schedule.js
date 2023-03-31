@@ -33,21 +33,15 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
               </li>
               <li>
                 <div class="timeline-content">
-                  <h3 class="date">5th April, 23, 1:00 PM - 2:00 PM</h3>
-                  <h1>Lunch</h1>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-content">
                   <h3 class="date">5th April, 23, 2:00 PM - 5:00 PM</h3>
-                  <h1>Panel Discussion</h1>
+                  <h1>Venture Vision</h1>
                 </div>
               </li>
 
               <li>
                 <div class="timeline-content">
                   <h3 class="date">5th April, 23, 6:00 PM - 8:00 PM</h3>
-                  <h1>Coding contest</h1>
+                  <h1>Coding Contest</h1>
                 </div> 
               </li>
             </ul>
@@ -66,7 +60,7 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
               <li>
                 <div class="timeline-content">
                   <h3 class="date">6th April, 23, 9:00 AM - 12:00 PM</h3>
-                  <h1>Tech Quiz</h1>
+                  <h1>Tech Trivia (Quiz)</h1>
                 </div>
               </li>
                             <li>
@@ -78,7 +72,7 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
               <li>
                 <div class="timeline-content">
                   <h3 class="date">6th April, 23, 2:00 AM - 6:00 PM</h3>
-                  <h1>Workshop on Block Chain</h1>
+                  <h1>Workshop on Blockchain</h1>
                 </div>
               </li>
               <li>
@@ -96,7 +90,7 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
             <h1 style={{backgroundColor: "#1e1f22",padding: "20px", paddingInline:"8vw", borderRadius: "10px"}}>Hackathon (Online)</h1>
           </div> 
           <div style={{display:"flex",justifyContent: "center"}}>
-            <h3 class="hackdate">5th April, 23, 11:00 AM - 6th April, 23, 11:00 PM</h3>
+            <h3 class="hackdate">3rd April, 23, 5:00 PM - 5th April, 23, 5:00 PM</h3>
           </div>
         </div>
       </div>
@@ -107,25 +101,3 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
 };
 
 export default Schedule;
-
-
-
-
-{/* <li>
-                <div class="timeline-content">
-                  <h3 class="date">3rd April, 23, 10:00 AM - 11:00 AM</h3>
-                  <h1>Coding Contest Round 2</h1>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-content">
-                  <h3 class="date">3rd April, 23, 11:00 AM - 12:00 PM</h3>
-                  <h1>CSS Battle Round 2</h1>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-content">
-                  <h3 class="date">3rd April, 23, 12:00 PM - 06:00 PM</h3>
-                  <h1>Hackathon</h1>
-                </div>
-              </li> */}

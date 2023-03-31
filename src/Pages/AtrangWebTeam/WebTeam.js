@@ -1,10 +1,9 @@
-// import "./TechCouncil.css";
 import TechCounCard from "../../components/TechCounCard/TechCounCard";
 import { WebTeamData } from "../../Data/WebTeamData";
 
 const WebTeam = () => {
   return (
-    <div>
+    <div className="webteam" id="webteam">
       <div className="home-section-two">
         <div className="border-container atrang-sec">
           <h1 className="section-heading">Atrang Web Team</h1>

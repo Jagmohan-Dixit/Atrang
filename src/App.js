@@ -8,6 +8,7 @@ import Org from "./Pages/Organizer/Org";
 import Workshops from "./Pages/Workshops/Workshops";
 
 function App() {
+  
   const aboutSection = useRef(null);
   const organizerSection = useRef(null);
 

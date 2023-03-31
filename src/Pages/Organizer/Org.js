@@ -3,30 +3,31 @@ import "./Org.css";
 import OrgCard from "../../components/OrgCard/OrgCard";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import Slavanya from "../../Assests/lavanya3.png";
-import MayankS from "../../Assests/mayank-sonkar-new.png";
+
 import OrgHeading from "./OrgHeading/OrgHeading";
-import Venu from "../../Assests/venu1.jpeg";
-import Bhadraksh from "../../Assests/bhadraksh.jpeg";
+
+import Sarthak from "../../Assests/sarthak.jpg";
+
+import Jaggu from "../../Assests/jaggu.jpg";
+import Dipesh from "../../Assests/DipeshTalekar.jpg";
+import Mayank from "../../Assests/mayank-sonkar-new.png";
+import Yashdeep from "../../Assests/Yashdeep.jpeg";
+import Kshitij from "../../Assests/kshitij.jpg";
+import Adithya from "../../Assests/Adithya.jpg";
+import Vijaya from "../../Assests/Vijay.jpg";
+import Vaidik from "../../Assests/Vaidik.jpg";
+import NNM from "../../Assests/nagamallishwar.jpg";
+import Bharadwaj from "../../Assests/Bharadwaj.jpg";
+import Anshika from "../../Assests/Anshika.jpg";
+import ChintalaS from "../../Assests/ChintalaS.jpg";
+import Gnana from "../../Assests/GnanaKishore.jpeg";
+import Pranav from "../../Assests/Pranav.jpeg";
+import Keshav from "../../Assests/Keshav.jpg";
+import Suman from "../../Assests/Suman.jpg";
 import Shubham from "../../Assests/shubham.jpeg";
-import Sarthak from "../../Assests/sarthak.jpeg";
-import Nishant from "../../Assests/nishant.jpeg";
-import Ayush from "../../Assests/ayush.jpeg";
-import Anish from "../../Assests/anish.jpeg";
-import Keshav from "../../Assests/keshav.jpeg";
-import sid from "../../Assests/sid.jpeg";
-import dinesh from "../../Assests/dinesh bhiaya.jpeg";
-import Saranya from "../../Assests/saranya.jpeg";
-import Vishal from "../../Assests/vishal.jpeg";
-import Vikash from "../../Assests/vikash.jpeg";
-import Yash from "../../Assests/yash1.jpeg";
-import Royal from "../../Assests/royal.jpeg";
-import Saketh from "../../Assests/saketh.jpeg";
-import bhavana from "../../Assests/Bhavana Vemuri_3rd Year.jpg";
-import snigdha from "../../Assests/KATEPALLI SRI SAI SNIGDHA_1st year.jpg";
-import abdul from "../../Assests/Mohammed Abdul Akram_1st year.jpeg";
-import kamal from "../../Assests/N Kamal Raj_2nd Year.jpg";
-import rohit from "../../Assests/Yara Rohit Vathsal_2nd Year.jpg";
+import Vaibhav from "../../Assests/Vaibhav.jpg";
+import Navneet from "../../Assests/Navneet.png";
+import Sachin from "../../Assests/Sachin.jpg";
 
 const Org = () => {
   return (
@@ -34,24 +35,20 @@ const Org = () => {
       <Navbar />
       <div className="anim-main-container">
         <h1 className="glitch org-main-heading">
-          <span aria-hidden="true"> Organizers</span>
-          Organizers
-          <span aria-hidden="true"> Organizers</span>
+          <span aria-hidden="true"> Core Organizers</span>
+          Core Organizers
+          <span aria-hidden="true"> Core Organizers</span>
         </h1>
       </div>
       <div className="card-container--organizer">
-        <OrgCard
-          image={Slavanya}
-          name={"S lavanya"}
-          des="Technical Secretary"
-        />
-        <OrgCard
-          image={MayankS}
-          name={"Mayank Sonkar"}
-          des="Vice Tech Secretary"
-        />
+        <OrgCard image={Shubham} name={"Shubham K Bhagat"} des="4th Year" />
+        <OrgCard image={NNM} name={"N Nagamallishwar"} des="4th Year" />
+        <OrgCard image={Vaibhav} name={"Vaibhav Agarwal"} des="3rd Year" />
+        <OrgCard image={Sarthak} name={"Harsh Agarwal"} des="3rd Year" />
+        <OrgCard image={Sarthak} name={"Sarthak Kumar"} des="3rd Year" />
+        <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd Year" />
       </div>
-      <OrgHeading title="design team" />
+      {/* <OrgHeading title="design team" />
       <div className="card-container--organizer card-container--org">
         <OrgCard image={bhavana} name={"Bhavana Vemuri"} des="3rd year" />
         <OrgCard image={kamal} name={"Kamal Raj"} des="2nd year" />
@@ -74,50 +71,54 @@ const Org = () => {
           name={"Abdul Akram"}
           des="1st year"
         />
-      </div>
-      <OrgHeading title="coding contest" />
+      </div>*/}
+      <OrgHeading title="Coding Contest" />
+
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Shubham} name={"Dipesh Talekar"} des="4th year" />
-        <OrgCard image={Sarthak} name={"Jagmohan Dixit"} des="3rd year" />
-        <OrgCard image={Nishant} name={"Krishna Rai"} des="2nd year" />
+        <OrgCard image={Dipesh} name={"Dipesh Talekar"} des="4th year" />
+        <OrgCard image={Jaggu} name={"Jagmohan Dixit"} des="3rd year" />
+        <OrgCard image={Jaggu} name={"Aditya Pareek"} des="3rd year" />
+        <OrgCard image={Sachin} name={"Sachin Tayal"} des="3rd year" />
       </div>
-      <OrgHeading title="hackathon" />
+      <OrgHeading title="Hackathon" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Venu} name={"Venu Sai"} des="3rd year" />
-        <OrgCard image={Bhadraksh} name={"Bhadraksh"} des="1st year" />
+        <OrgCard image={Mayank} name={"Mayank Sonkar"} des="4th year" />
+        <OrgCard image={Yashdeep} name={"Yashdeep Rao"} des="4th year" />
+        <OrgCard image={Kshitij} name={"Kshitij Verma"} des="2nd year" />
       </div>
-      <OrgHeading title="pitch your startup" />
+      <OrgHeading title="Capture The Flag" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={sid} name={"Siddharth Sahu"} des="3rd year" />
-        <OrgCard image={Vikash} name={"Vikash Baabhu"} des="2nd year" />
-        <OrgCard image={Yash} name={"Yash Khaitan"} des="1st year" />
+        <OrgCard image={Adithya} name={"P Adithya Venkatesh"} des="4th year" />
+        <OrgCard image={Vijaya} name={"Vijaya Pratap Reddy M"} des="3rd year" />
+        <OrgCard image={Vaidik} name={"Vaidik Bhongade"} des="2nd year" />
       </div>
-      <OrgHeading title="css battle" />
+      <OrgHeading title="Circuit Design" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={dinesh} name={"Dinesh vikram"} des="4th year" />
-        <OrgCard
-          image="http://iiittm.surge.sh/static/media/nitish_kumar.df87522d.jpeg"
-          name={"Nitish kumar"}
-          des="4th year"
-        />
-        <OrgCard image={Royal} name={"Royal Choudhary"} des="2nd year" />
+        <OrgCard image={NNM} name={"N Nagamallishwar"} des="4th year" />
+        <OrgCard image={Bharadwaj} name={"Bharadwaj Routhu"} des="3rd year" />
+        <OrgCard image={Anshika} name={"Anshika"} des="2nd year" />
       </div>
       <OrgHeading title="mock interview" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Vishal} name={"Vishal Sharma"} des="4th year" />
-        <OrgCard image={Saranya} name={"Lakshmi Saranya"} des="4th year" />
-        <OrgCard image={dinesh} name={"Dinesh Vikram"} des="4th year" />
+        <OrgCard image={Navneet} name={"Navneet Rai"} des="4th year" />
+        <OrgCard image={ChintalaS} name={"Chintala Sravani"} des="4th year" />
+        <OrgCard image={Dipesh} name={"Dipesh Talekar"} des="4th year" />
+        <OrgCard image={NNM} name={"N Nagamallishwar"} des="4th year" />
       </div>
-      <OrgHeading title="share your tech story" />
+      <OrgHeading title="Tech Trivia" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Ayush} name={"Ayush Singh"} des="3rd year" />
-        <OrgCard image={Anish} name={"Anish Kirodiwal "} des="2nd year" />
-        <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="2nd year" />
+        <OrgCard image={Pranav} name={"Pranav Tiwari"} des="3rd year" />
+        <OrgCard image={Gnana} name={"Gnana Kishore"} des="3rd year" />
       </div>
-      <OrgHeading title="roopkalp" />
+      <OrgHeading title="Venture Vision" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Saketh} name={"Satya Saketh"} des="4th year" />
-        <OrgCard image={bhavana} name={"Bhavana Vemuri"} des="3rd year" />
+        <OrgCard image={Suman} name={"Suman Raj"} des="3rd year" />
+        <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd year" />
+      </div>
+      <OrgHeading title="Workshop" />
+      <div className="card-container--organizer card-container--org">
+        <OrgCard image={Pranav} name={"Harsh Kumar"} des="3rd year" />
+        <OrgCard image={Gnana} name={"Srinidhi"} des="2nd year" />
       </div>
       <hr className="hr" />
       <Footer />

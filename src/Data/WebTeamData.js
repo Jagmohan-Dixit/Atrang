@@ -1,5 +1,6 @@
 import Jaggu from "../Assests/jaggu.jpg"
 import MayankSonkar from "../Assests/mayank-sonkar-new.png";
+import Kshitij from "../Assests/kshitij.jpg";
 
 
 export const WebTeamData = [
@@ -27,13 +28,13 @@ export const WebTeamData = [
     },
     {
       key: "3",
-      img: Jaggu,
+      img: Kshitij,
       name: "Kshitij",
       about:
-        "I was first drawn to coding to learn about this field, but I quickly became obsessed with the procedure. I have developed a variety of projects and sharpened my talents through designing and creating web apps. Regardless of its size, I approach every project with passion and dedication.I have a constant desire to overcome obstacles and push the limits of what is feasible.I'm always looking for ways to advance and innovate in my field.",
-      email: "201212@iiitt.ac.in",
-      linkedIn: "https://www.linkedin.com/in/jagmohandixit",
-      portfolio: "https://hellojaggu.surge.sh",
-      tag: "jaggu",
+        "I am highly inclined towards ideation and innovation. Discovering real-life problems and proposing solutions to them is what I aspire for. I am highly adaptable to technologies and that is what makes me different because in today's world technologies and trends change too fast and adaptability is a must.",
+      email: "211118@iiitt.ac.in",
+      linkedIn: "https://www.linkedin.com/in/kshitij-verma-332b44236",
+      // portfolio: "https://hellojaggu.surge.sh",
+      tag: "kshitij",
     },
   ];

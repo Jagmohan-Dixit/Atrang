@@ -36,16 +36,24 @@
 .image-main {
   object-fit: cover;
 }
-.mayank {
-  background-image: url("../../Assests/mayank-sonkar-new.png");
+.sarthak {
+  background-image: url("../../Assests/sarthak.jpg");
 }
 
 .jaggu {
   background-image: url("../../Assests/jaggu.jpg");
 }
 
-.lavanya {
-  background-image: url("../../Assests/lavanya3.png");
+.mayank {
+  background-image: url("../../Assests/mayank-sonkar-new.png");
+}
+
+.kshitij {
+  background-image: url("../../Assests/kshitij.jpg");
+}
+
+.nagamallishwar {
+  background-image: url("../../Assests/nagamallishwar.jpg");
 }
 
 .team-card-hr {
