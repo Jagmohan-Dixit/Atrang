@@ -44,7 +44,7 @@ const Footer = ({ about, org }) => {
             <div className="div3-icon-container">
               <a
                 className="div3-icon-container-a"
-                href="mailto:atrang22.iiitt@gmail.com"
+                href="mailto:atrang23.iiitt@gmail.com"
               >
                 <EmailIcon fontSize="large" />
               </a>
@@ -64,7 +64,7 @@ const Footer = ({ about, org }) => {
       <hr className="footer-hr" />
       <a
         className="credits"
-        href="#webteam"
+        href="/#webteam"
         rel="noreferrer"
       >
         Made with{" "}

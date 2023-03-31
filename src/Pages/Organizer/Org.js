@@ -9,6 +9,7 @@ import OrgHeading from "./OrgHeading/OrgHeading";
 import Sarthak from "../../Assests/sarthak.jpg";
 
 import Jaggu from "../../Assests/jaggu.jpg";
+import Aditya from "../../Assests/Aditya.jpg";
 import Dipesh from "../../Assests/DipeshTalekar.jpg";
 import Mayank from "../../Assests/mayank-sonkar-new.png";
 import Yashdeep from "../../Assests/Yashdeep.jpeg";
@@ -28,6 +29,12 @@ import Shubham from "../../Assests/shubham.jpeg";
 import Vaibhav from "../../Assests/Vaibhav.jpg";
 import Navneet from "../../Assests/Navneet.png";
 import Sachin from "../../Assests/Sachin.jpg";
+import HarshKumar from "../../Assests/Harsh.png";
+import Harsh from "../../Assests/Harsh.jpg";
+import Srinidhi from "../../Assests/Srinidhi.jpg";
+import Naresh from "../../Assests/Naresh.jpg";
+import Sainath from "../../Assests/Sainath.jpg";
+
 
 const Org = () => {
   return (
@@ -44,7 +51,7 @@ const Org = () => {
         <OrgCard image={Shubham} name={"Shubham K Bhagat"} des="4th Year" />
         <OrgCard image={NNM} name={"N Nagamallishwar"} des="4th Year" />
         <OrgCard image={Vaibhav} name={"Vaibhav Agarwal"} des="3rd Year" />
-        <OrgCard image={Sarthak} name={"Harsh Agarwal"} des="3rd Year" />
+        <OrgCard image={Harsh} name={"Harsh Agarwal"} des="3rd Year" />
         <OrgCard image={Sarthak} name={"Sarthak Kumar"} des="3rd Year" />
         <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd Year" />
       </div>
@@ -77,7 +84,7 @@ const Org = () => {
       <div className="card-container--organizer card-container--org">
         <OrgCard image={Dipesh} name={"Dipesh Talekar"} des="4th year" />
         <OrgCard image={Jaggu} name={"Jagmohan Dixit"} des="3rd year" />
-        <OrgCard image={Jaggu} name={"Aditya Pareek"} des="3rd year" />
+        <OrgCard image={Aditya} name={"Aditya Pareek"} des="3rd year" />
         <OrgCard image={Sachin} name={"Sachin Tayal"} des="3rd year" />
       </div>
       <OrgHeading title="Hackathon" />
@@ -104,6 +111,7 @@ const Org = () => {
         <OrgCard image={ChintalaS} name={"Chintala Sravani"} des="4th year" />
         <OrgCard image={Dipesh} name={"Dipesh Talekar"} des="4th year" />
         <OrgCard image={NNM} name={"N Nagamallishwar"} des="4th year" />
+        <OrgCard image={Naresh} name={"Naresh Reddy"} des="4th year" />
       </div>
       <OrgHeading title="Tech Trivia" />
       <div className="card-container--organizer card-container--org">
@@ -114,11 +122,13 @@ const Org = () => {
       <div className="card-container--organizer card-container--org">
         <OrgCard image={Suman} name={"Suman Raj"} des="3rd year" />
         <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd year" />
+        <OrgCard image={Sainath} name={"Sainath Kadam"} des="3rd year" />
       </div>
       <OrgHeading title="Workshop" />
       <div className="card-container--organizer card-container--org">
-        <OrgCard image={Pranav} name={"Harsh Kumar"} des="3rd year" />
-        <OrgCard image={Gnana} name={"Srinidhi"} des="2nd year" />
+        <OrgCard image={Harsh} name={"Harsh Agarwal"} des="3rd year" />
+        <OrgCard image={HarshKumar} name={"Harsh Kumar"} des="3rd year" />
+        <OrgCard image={Srinidhi} name={"Srinidhi"} des="2nd year" />
       </div>
       <hr className="hr" />
       <Footer />
