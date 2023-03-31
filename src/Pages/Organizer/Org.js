@@ -9,7 +9,9 @@ import OrgHeading from "./OrgHeading/OrgHeading";
 import Sarthak from "../../Assests/sarthak.jpg";
 
 import Jaggu from "../../Assests/jaggu.jpg";
-import Aditya from "../../Assests/Aditya.jpg";
+import Aditya from "../../Assests/Aditya2.jpg";
+import Krishna from "../../Assests/Krishna.jpg";
+import Siddharth from "../../Assests/sid.jpeg";
 import Dipesh from "../../Assests/DipeshTalekar.jpg";
 import Mayank from "../../Assests/mayank-sonkar-new.png";
 import Yashdeep from "../../Assests/Yashdeep.jpeg";
@@ -107,6 +109,8 @@ const Org = () => {
       </div>
       <OrgHeading title="mock interview" />
       <div className="card-container--organizer card-container--org">
+        <OrgCard image={Krishna} name={"Krishna Laddha"} des="4th year" />
+        <OrgCard image={Siddharth} name={"Siddharth Sahu"} des="4th year" />
         <OrgCard image={Navneet} name={"Navneet Rai"} des="4th year" />
         <OrgCard image={ChintalaS} name={"Chintala Sravani"} des="4th year" />
         <OrgCard image={Dipesh} name={"Dipesh Talekar"} des="4th year" />
