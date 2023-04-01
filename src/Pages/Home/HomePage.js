@@ -5,7 +5,7 @@ import HomeAnimation from "../../components/HomeAnimation/HomeAnimation";
 import Video2 from "../../Assests/videoB.mp4";
 import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
-import Video from "../../Assests/atrang-coming-soon.mp4";
+import Video from "../../Assests/AtrangVideo.mp4";
 import TechCouncil from "../TechCouncil/TechCouncil";
 import WebTeam from "../AtrangWebTeam/WebTeam";
 
