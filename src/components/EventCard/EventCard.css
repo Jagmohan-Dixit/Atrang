@@ -85,6 +85,7 @@
   border: none;
   cursor: pointer;
   margin-top: 40px;
+  background-color: unset;
 }
 
 .organizer-button-a:hover {
