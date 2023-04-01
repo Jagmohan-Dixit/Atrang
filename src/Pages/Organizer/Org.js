@@ -8,7 +8,7 @@ import OrgHeading from "./OrgHeading/OrgHeading";
 
 import Sarthak from "../../Assests/sarthak.jpg";
 
-import Jaggu from "../../Assests/jaggu.jpg";
+import Jaggu from "../../Assests/jaggu1.jpg";
 import Aditya from "../../Assests/Aditya.jpg";
 import Krishna from "../../Assests/Krishna.jpg";
 import Siddharth from "../../Assests/sid.jpeg";

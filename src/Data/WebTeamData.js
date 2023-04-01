@@ -1,4 +1,4 @@
-import Jaggu from "../Assests/jaggu.jpg"
+import Jaggu from "../Assests/jaggu1.jpg"
 import MayankSonkar from "../Assests/mayank-sonkar-new.png";
 import Kshitij from "../Assests/kshitij.jpg";
 
