@@ -35,8 +35,12 @@ import HarshKumar from "../../Assests/Harsh.png";
 import Harsh from "../../Assests/Harsh.jpg";
 import Srinidhi from "../../Assests/Srinidhi.jpg";
 import Naresh from "../../Assests/Naresh.jpg";
-import Sainath from "../../Assests/Sainath.jpg";
-
+import Bhadraksh from "../../Assests/bhadraksh.jpeg";
+import bhavana from "../../Assests/Bhavana Vemuri_3rd Year.jpg";
+import snigdha from "../../Assests/KATEPALLI SRI SAI SNIGDHA_1st year.jpg";
+import abdul from "../../Assests/Mohammed Abdul Akram_1st year.jpeg";
+import kamal from "../../Assests/N Kamal Raj_2nd Year.jpg";
+import rohit from "../../Assests/Yara Rohit Vathsal_2nd Year.jpg";
 
 const Org = () => {
   return (
@@ -57,30 +61,6 @@ const Org = () => {
         <OrgCard image={Sarthak} name={"Sarthak Kumar"} des="3rd Year" />
         <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd Year" />
       </div>
-      {/* <OrgHeading title="design team" />
-      <div className="card-container--organizer card-container--org">
-        <OrgCard image={bhavana} name={"Bhavana Vemuri"} des="3rd year" />
-        <OrgCard image={kamal} name={"Kamal Raj"} des="2nd year" />
-        <OrgCard image={rohit} name={"Rohit Vathsal"} des="2nd year" />
-        <OrgCard
-          margin={true}
-          image={snigdha}
-          name={"SAI SNIGDHA"}
-          des="1st year"
-        />
-        <OrgCard
-          margin={true}
-          image={Bhadraksh}
-          name={"Bhadraksh B."}
-          des="1st year"
-        />
-        <OrgCard
-          margin={true}
-          image={abdul}
-          name={"Abdul Akram"}
-          des="1st year"
-        />
-      </div>*/}
       <OrgHeading title="Coding Contest" />
 
       <div className="card-container--organizer card-container--org">
@@ -126,7 +106,15 @@ const Org = () => {
       <div className="card-container--organizer card-container--org">
         <OrgCard image={Suman} name={"Suman Raj"} des="3rd year" />
         <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd year" />
-        <OrgCard image={Sainath} name={"Sainath Kadam"} des="3rd year" />
+      </div>
+      <OrgHeading title="design team" />
+      <div className="card-container--organizer card-container--org">
+        <OrgCard image={bhavana} name={"Bhavana Vemuri"} des="4th year" />
+        <OrgCard image={kamal} name={"Kamal Raj"} des="3rd year" />
+        <OrgCard image={rohit} name={"Rohit Vathsal"} des="3rd year" />
+        <OrgCard margin={true} image={snigdha} name={"SAI SNIGDHA"} des="2nd year" />
+        <OrgCard margin={true} image={Bhadraksh} name={"Bhadraksh B."} des="2nd year" />
+        <OrgCard margin={true} image={abdul} name={"Abdul Akram"} des="2nd year" />
       </div>
       <OrgHeading title="Workshop" />
       <div className="card-container--organizer card-container--org">
