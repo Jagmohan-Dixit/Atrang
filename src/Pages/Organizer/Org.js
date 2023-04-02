@@ -3,11 +3,10 @@ import "./Org.css";
 import OrgCard from "../../components/OrgCard/OrgCard";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-
 import OrgHeading from "./OrgHeading/OrgHeading";
 
-import Sarthak from "../../Assests/sarthak.jpg";
 
+import Sarthak from "../../Assests/sarthak.jpg";
 import Jaggu from "../../Assests/jaggu1.jpg";
 import Aditya from "../../Assests/Aditya.jpg";
 import KrishnaRai from "../../Assests/KrishnaRai.jpg";
@@ -61,6 +60,7 @@ const Org = () => {
         <OrgCard image={NNM} name={"N Nagamallishwar"} des="4th Year" />
         <OrgCard image={Vaibhav} name={"Vaibhav Agarwal"} des="3rd Year" />
         <OrgCard image={Harsh} name={"Harsh Agarwal"} des="3rd Year" />
+        <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd year" />
         <OrgCard image={Sarthak} name={"Sarthak Kumar"} des="3rd Year" />
       </div>
       <OrgHeading title="Coding Contest" />
@@ -112,7 +112,6 @@ const Org = () => {
       <OrgHeading title="Venture Vision" />
       <div className="card-container--organizer card-container--org">
         <OrgCard image={Suman} name={"Suman Raj"} des="3rd year" />
-        <OrgCard image={Keshav} name={"Keshav Tulsyan"} des="3rd year" />
       </div>
 
       <OrgHeading title="design team" />

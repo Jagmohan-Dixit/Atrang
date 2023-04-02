@@ -71,7 +71,7 @@ const Schedule = ({ gotoAbout, gotoOrganizer }) => {
               </li>
               <li>
                 <div class="timeline-content">
-                  <h3 class="date">6th April, 23, 2:00 AM - 6:00 PM</h3>
+                  <h3 class="date">6th April, 23, 2:00 PM - 6:00 PM</h3>
                   <h1>Workshop on Blockchain</h1>
                 </div>
               </li>
