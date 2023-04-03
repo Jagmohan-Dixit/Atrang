@@ -26,7 +26,7 @@ const Workshops = () => {
           <div
             id="record1"
             class="record-display"
-            style={{ backgroundImage: `url(${workshopData?.img})` }}
+            style={{ backgroundImage: `url(${blockChainImage})` }}
           ></div>
           <div class="record-desc">
             <h1>{workshopData?.title}</h1>
