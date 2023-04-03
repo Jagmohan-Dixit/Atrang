@@ -1,3 +1,4 @@
+import React from "react";
 import TechCounCard from "../../components/TechCounCard/TechCounCard";
 import { WebTeamData } from "../../Data/WebTeamData";
 

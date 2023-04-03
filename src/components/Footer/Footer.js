@@ -1,3 +1,4 @@
+import React from "react";
 import "./Footer.css";
 import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";

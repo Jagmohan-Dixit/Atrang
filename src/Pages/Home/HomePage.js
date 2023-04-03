@@ -1,3 +1,4 @@
+import React from "react";
 import "./HomePage.css";
 import Navbar from "../../components/Navbar/Navbar";
 import CrownGrey from "../../Assests/crownGrey.png";

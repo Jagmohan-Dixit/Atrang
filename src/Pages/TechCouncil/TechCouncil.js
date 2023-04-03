@@ -1,3 +1,4 @@
+import React from "react";
 import "./TechCouncil.css";
 import TechCounCard from "../../components/TechCounCard/TechCounCard";
 import { CouncilData } from "../../Data/CouncilData";

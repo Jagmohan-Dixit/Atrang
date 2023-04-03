@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { useRef } from "react";
 import HomePage from "./Pages/Home/HomePage";
@@ -18,8 +19,7 @@ function App() {
     window.scrollTo({ top: organizerSection.current.offsetTop });
   return (
     <Routes>
-      <Route
-        path="/"
+      <Route path="/"
         element={
           <HomePage
             aboutSection={aboutSection}
